@@ -10,7 +10,14 @@ namespace GestioneFile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Inserisci il path");
+            string path = Console.ReadLine();
+
+            Writercs w = new Writercs(path);
+
+            w.ScriviFile();
+
+            Console.WriteLine("Operazione completata");
         }
     }
 }
