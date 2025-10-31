@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Commento di prova
 namespace GestioneFile
 {
     internal class Program
